@@ -1,1 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+
+body {
+    font-family: Mohave;
+}
+
+#header-background {
+    background-image: url('../images/header.jpg');
+    height: 450px;
+    width: 100%;
+    top: 0;
+}
+
+.big-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+/* header above */
