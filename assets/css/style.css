@@ -109,11 +109,28 @@ body {
      height: 350px;
    }
 
-   @media screen and (max-width: 1140px) {
+   @media screen and (max-width: 1200px) {
     .container {
       padding: 30px;
       display: flex;
       flex-direction: row;
+      height: 600px;
+      flex-wrap: nowrap;
+      align-content: flex-start;
+      justify-content: space-;
+    }
+
+    .img-desc {
+      width: auto;
+      height: 230px;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .container {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
       height: 600px;
       flex-wrap: nowrap;
       align-content: flex-start;
@@ -154,7 +171,7 @@ th {
 
 /* Media */
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
     .container-desc {
       background-color: #d6a073;
       padding: 30px;
