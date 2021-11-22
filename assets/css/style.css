@@ -79,7 +79,7 @@ body {
   }
 
   .contact-header {
-      font-size: 350%;
+      font-size: 250%;
   }
 
   .address {
@@ -94,71 +94,49 @@ body {
     font-size: 125%;
   }
 
-   /* Image Info */
-
-   .container {
-     display: flex;
+  .container {
+     border: 1px solid rgb(172, 182, 192);
      height: 600px;
-     flex-wrap: nowrap;
-     align-content: flex-start;
+     display: flex;
+     flex-direction: row;
      justify-content: space-around;
+     align-items: center;
+     background-color: rgb(239, 243, 248);
    }
 
-   /* Footer */
+   .img-desc {
+     width: auto;
+     height: 350px;
+   }
 
-  .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #555;
-    color: white;
-    text-align: center;
-  }
-
-   /* Home Page Desc */
-
-   .description {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 1050px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .container {
-  border: 1px solid rgb(252, 252, 252);
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  background-color: rgb(206, 206, 206); /* Fallback color */
-  background-color: rgba(235, 230, 230, 0.7); /* Black w/opacity/see-through */
-}
-
-.item {
-  border: 1px dashed blue;
-  height: 50px;
-}
-
-  /* media #1 */
-
-#@media screen and (max-width: 1300px) {
+   @media screen and (max-width: 1140px) {
     .container {
+      padding: 30px;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       height: 600px;
       flex-wrap: nowrap;
       align-content: flex-start;
       justify-content: space-;
     }
+
+    .img-desc {
+      width: auto;
+      height: 230px;
+    }
   }
+/* Description */
+
+.container-desc {
+  background-blend-mode: color;
+  padding: 40px;
+  background-color: rgb(236, 211, 178);
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 
