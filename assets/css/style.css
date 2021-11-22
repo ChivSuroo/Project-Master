@@ -133,9 +133,25 @@ body {
     text-align: center;
   }
 
+  .container {
+  border: 1px solid rgb(252, 252, 252);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(206, 206, 206); /* Fallback color */
+  background-color: rgba(235, 230, 230, 0.7); /* Black w/opacity/see-through */
+}
+
+.item {
+  border: 1px dashed blue;
+  height: 50px;
+}
+
   /* media #1 */
 
-@media screen and (max-width: 1300px) {
+#@media screen and (max-width: 1300px) {
     .container {
       display: flex;
       flex-direction: column;
