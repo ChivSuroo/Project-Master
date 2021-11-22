@@ -184,3 +184,22 @@ th {
       justify-content: flex-start;
     }
   }
+
+  footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0%;
+    padding: 5%;
+    color: #3a3a3a;
+}
