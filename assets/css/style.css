@@ -128,15 +128,41 @@ body {
 /* Description */
 
 .container-desc {
-  background-blend-mode: color;
   padding: 40px;
-  background-color: rgb(236, 211, 178);
+  background-color: #d6a073;
   height: 350px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowwrap;
   text-align: center;
+  align-items: center;
 }
 
+th {
+  text-align: right; 
+}
 
+.container-desc h1 {
+  color: rgb(255, 255, 255);
+}
+
+.container-desc p, th, td, h3 {
+  font-size: 100%;
+  font-family: arial;
+}
+
+/* Media */
+
+@media screen and (max-width: 1150px) {
+    .container-desc {
+      background-color: #d6a073;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      flex-wrap: nowrap;
+      align-content: flex-start;
+      justify-content: flex-start;
+    }
+  }
