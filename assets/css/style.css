@@ -118,7 +118,6 @@ body {
       height: 600px;
       flex-wrap: nowrap;
       align-content: flex-start;
-      justify-content: space-;
     }
 
     .img-desc {
@@ -135,13 +134,16 @@ body {
       height: 600px;
       flex-wrap: nowrap;
       align-content: flex-start;
-      justify-content: space-;
     }
 
     .img-desc {
       width: auto;
       height: 230px;
     }
+
+    #photos {
+      column-count: 3;
+  }
   }
 /* Description */
 
@@ -152,7 +154,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: nowwrap;
   text-align: center;
   align-items: center;
 }
