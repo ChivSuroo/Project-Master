@@ -6,4 +6,4 @@ and looking to book online appointments and questions. This
 website will have information on the services that Paws
 Clinic will be offering with prices and offers.
 
-![Responsive Image](Responsive.jpg)
+![Responsive Image](https://cdn.discordapp.com/attachments/795185441778303052/913797718189670410/unknown.png)
