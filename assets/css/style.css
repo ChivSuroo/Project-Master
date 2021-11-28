@@ -137,13 +137,18 @@ body {
     }
 
     .img-desc {
-      width: auto;
+      width: 310px;
       height: 230px;
     }
 
     #photos {
-      column-count: 3;
-  }
+      flex-direction: column;
+      display: flex;
+      clear: both;
+      line-height: 0;
+      column-count: 4;
+      column-gap: 0px;
+    }
   }
 /* Description */
 
