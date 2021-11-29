@@ -150,6 +150,19 @@ body {
     column-count: 4;
     column-gap: 0px;
   }
+
+  .service-container {
+    background-color: #f2f2f2;
+    margin-top: 24px;
+  }
+
+  .service-column {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 /* Description */
