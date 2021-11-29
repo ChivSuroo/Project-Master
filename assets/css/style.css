@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   border: none;
-  background-color: f2f2f2;
+  background-color: #f2f2f2;
 }
 
 body {
@@ -193,7 +193,7 @@ h3 {
   font-size: 120%;
 }
 
-/* Media */
+/* Media 1200px */
 
 @media screen and (max-width: 1200px) {
   .container-desc {
