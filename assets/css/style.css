@@ -172,7 +172,7 @@ body {
 
 .container-desc {
   padding: 40px;
-  background-color: #d6a073;
+  background-color: #dd9255;
   height: 600px;
   display: flex;
   flex-direction: row;
@@ -227,7 +227,7 @@ h3 {
 
 @media screen and (max-width: 1200px) {
   .container-desc {
-    background-color: #d6a073;
+    background-color: #dd9255;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -243,6 +243,7 @@ h3 {
 
   .item {
     padding-top: 20px;
+    font-size: large;
   }
 }
 
