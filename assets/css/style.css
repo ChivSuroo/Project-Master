@@ -180,6 +180,7 @@ body {
   text-align: center;
   align-items: center;
   flex-wrap: wrap;
+  letter-spacing: 1px;
 }
 
 .container-desc p {
@@ -279,6 +280,10 @@ footer {
 
 #photos>img {
   width: 100%;
+}
+
+.img-photos {
+  display: flex;
 }
 
 /* Forms */
